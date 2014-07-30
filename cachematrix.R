@@ -32,10 +32,12 @@ cacheSolve <- function(x, ...) {
 }
 
 ## Test code
-matrix2x2 <- matrix(1:4,2,2)
-matrix3x3 <- matrix(rnorm(9),3,3)
-matrix10x10 <- matrix(rnorm(100),10,10)
+#matrix2x2 <- matrix(1:4,2,2)
+#matrix3x3 <- matrix(rnorm(9),3,3)
+#matrix10x10 <- matrix(rnorm(100),10,10)
 
-x <- makeCacheMatrix(matrix2x2)
-cacheSolve(x)
-cacheSolve(x)
+#x <- makeCacheMatrix(matrix2x2)
+#x <- makeCacheMatrix(matrix3x3)
+#x <- makeCacheMatrix(matrix10x10)
+#cacheSolve(x)
+#cacheSolve(x)
